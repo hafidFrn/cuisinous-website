@@ -52,7 +52,7 @@ const Index = () => {
 
       <main id="home" className="flex-1">
         {/* Hero (image overlay style) */}
-        <section className="container mx-auto py-8 md:py-12">
+        <section className="container mx-auto py-6 sm:py-8 md:py-12">
           <div className="relative overflow-hidden rounded-2xl border border-border">
             <img
               src={heroImg}
@@ -60,21 +60,22 @@ const Index = () => {
               className="absolute inset-0 h-full w-full object-cover"
               decoding="async"
               fetchPriority="high"
+              sizes="(min-width: 1024px) 1200px, (min-width: 640px) 100vw, 100vw"
             />
             <div
               className="absolute inset-0 bg-gradient-to-r from-foreground/80 via-foreground/60 to-transparent"
               aria-hidden
             />
-            <div className="relative grid md:grid-cols-[1fr_auto] gap-6 p-8 md:p-12 min-h-[280px] md:min-h-[360px]">
+            <div className="relative grid md:grid-cols-[1fr_auto] gap-4 sm:gap-6 p-6 sm:p-8 md:p-12 min-h-[240px] sm:min-h-[300px] md:min-h-[420px]">
               <div className="max-w-xl">
-                <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-3 text-[hsl(var(--on-image))]">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight leading-tight mb-3 text-[hsl(var(--on-image))]">
                   Fresh from the kitchen, just how you want it
                 </h1>
-                <p className="text-[hsl(var(--on-image))]/80 text-base md:text-lg max-w-prose">
+                <p className="text-[hsl(var(--on-image))]/85 text-base sm:text-lg max-w-prose">
                   We prepare timeless recipes with seasonal ingredients and clear, step‑by‑step guidance.
                 </p>
               </div>
-              <div className="self-end justify-self-end">
+              <div className="justify-self-start md:justify-self-end self-start md:self-end mt-4 md:mt-0">
                 <Button variant="secondary" size="lg">View menu</Button>
               </div>
             </div>
