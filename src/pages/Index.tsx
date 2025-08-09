@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
 import { UtensilsCrossed, Flame, Users } from "lucide-react";
 import heroImg from "@/assets/hero-cooking.jpg";
 import recipe1 from "@/assets/recipe-1.jpg";
@@ -37,10 +38,14 @@ const Index = () => {
             <span className="font-semibold">Cooking Website</span>
           </a>
           <div className="hidden md:flex items-center gap-6">
+            <a href="#about" className="text-sm hover:text-primary transition-colors">About</a>
+            <a href="#services" className="text-sm hover:text-primary transition-colors">Services</a>
             <a href="#features" className="text-sm hover:text-primary transition-colors">Features</a>
             <a href="#recipes" className="text-sm hover:text-primary transition-colors">Popular Recipes</a>
             <a href="#newsletter" className="text-sm hover:text-primary transition-colors">Newsletter</a>
-            <Button variant="secondary" size="sm">Contact</Button>
+            <Button asChild variant="secondary" size="sm">
+              <a href="#contact">Contact</a>
+            </Button>
           </div>
         </nav>
       </header>
@@ -181,6 +186,93 @@ const Index = () => {
           </div>
         </section>
 
+        {/* About */}
+        <section id="about" className="container mx-auto py-16 md:py-24">
+          <div className="grid md:grid-cols-2 gap-10 items-center">
+            <article>
+              <h2 className="text-3xl md:text-4xl font-bold mb-3">About us</h2>
+              <p className="text-muted-foreground mb-4">We’re a team of passionate home cooks and chefs on a mission to make everyday cooking joyful. Our recipes are tested, approachable, and packed with flavor.</p>
+              <p className="text-muted-foreground">From weeknight staples to weekend projects, we help you build confidence with simple, clear guidance and a supportive community.</p>
+            </article>
+            <aside className="grid grid-cols-2 gap-4">
+              <div className="rounded-lg border border-border p-4 bg-card">
+                <div className="text-3xl font-bold text-primary">10k+</div>
+                <p className="text-sm text-muted-foreground">Happy cooks</p>
+              </div>
+              <div className="rounded-lg border border-border p-4 bg-card">
+                <div className="text-3xl font-bold text-primary">1k+</div>
+                <p className="text-sm text-muted-foreground">Recipes</p>
+              </div>
+              <div className="rounded-lg border border-border p-4 bg-card">
+                <div className="text-3xl font-bold text-primary">200+</div>
+                <p className="text-sm text-muted-foreground">Classes</p>
+              </div>
+              <div className="rounded-lg border border-border p-4 bg-card">
+                <div className="text-3xl font-bold text-primary">50+</div>
+                <p className="text-sm text-muted-foreground">Chefs</p>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        {/* Services */}
+        <section id="services" className="container mx-auto py-16 md:py-24">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-3">Our services</h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">Learn, cook, and grow with offerings designed for busy home cooks and food lovers.</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            <Card className="transition-transform hover:-translate-y-1">
+              <CardHeader>
+                <div className="h-10 w-10 rounded-md bg-secondary/30 flex items-center justify-center">
+                  <UtensilsCrossed className="text-primary" />
+                </div>
+                <CardTitle>Recipe library</CardTitle>
+              </CardHeader>
+              <CardContent className="text-muted-foreground">Hundreds of chef-tested recipes with step-by-step guidance and pro tips.</CardContent>
+            </Card>
+            <Card className="transition-transform hover:-translate-y-1">
+              <CardHeader>
+                <div className="h-10 w-10 rounded-md bg-secondary/30 flex items-center justify-center">
+                  <Flame className="text-primary" />
+                </div>
+                <CardTitle>Live & on‑demand classes</CardTitle>
+              </CardHeader>
+              <CardContent className="text-muted-foreground">Bite-sized lessons to master techniques, from knife skills to sauces.</CardContent>
+            </Card>
+            <Card className="transition-transform hover:-translate-y-1">
+              <CardHeader>
+                <div className="h-10 w-10 rounded-md bg-secondary/30 flex items-center justify-center">
+                  <Users className="text-primary" />
+                </div>
+                <CardTitle>Community & coaching</CardTitle>
+              </CardHeader>
+              <CardContent className="text-muted-foreground">Get feedback, share wins, and stay motivated with fellow cooks.</CardContent>
+            </Card>
+          </div>
+        </section>
+
+        {/* Contact */}
+        <section id="contact" className="relative">
+          <div className="absolute inset-0 bg-gradient-subtle pointer-events-none" aria-hidden />
+          <div className="container mx-auto py-16 md:py-24">
+            <div className="max-w-3xl mx-auto rounded-xl border border-border p-8 md:p-10 bg-card shadow-sm">
+              <h2 className="text-2xl md:text-3xl font-bold mb-2 text-center">Contact us</h2>
+              <p className="text-muted-foreground text-center mb-6">Have a question or a partnership idea? We’d love to hear from you.</p>
+              <form onSubmit={(e) => e.preventDefault()} className="grid gap-3" aria-label="Contact form">
+                <div className="grid md:grid-cols-2 gap-3">
+                  <Input type="text" placeholder="Your name" aria-label="Your name" className="h-12" required />
+                  <Input type="email" placeholder="Email address" aria-label="Email address" className="h-12" required />
+                </div>
+                <Textarea placeholder="Your message" aria-label="Your message" className="min-h-[140px]" required />
+                <div className="flex justify-center">
+                  <Button type="submit" variant="hero" size="lg">Send message</Button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+
         {/* Newsletter */}
         <section id="newsletter" className="relative">
           <div className="absolute inset-0 bg-gradient-subtle pointer-events-none" aria-hidden />
@@ -218,9 +310,12 @@ const Index = () => {
         <div className="container mx-auto py-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Cooking Website</p>
           <nav className="flex items-center gap-6 text-sm">
+            <a href="#about" className="hover:text-primary transition-colors">About</a>
+            <a href="#services" className="hover:text-primary transition-colors">Services</a>
             <a href="#features" className="hover:text-primary transition-colors">Features</a>
             <a href="#recipes" className="hover:text-primary transition-colors">Recipes</a>
             <a href="#newsletter" className="hover:text-primary transition-colors">Newsletter</a>
+            <a href="#contact" className="hover:text-primary transition-colors">Contact</a>
           </nav>
         </div>
       </footer>
