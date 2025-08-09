@@ -17,42 +17,45 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Brand colors - Cooking theme */
+    --primary: 0 74% 48%; /* Red */
+    --primary-foreground: 0 0% 100%; /* White */
 
-    --secondary: 210 40% 96.1%;
+    --secondary: 45 100% 52%; /* Yellow */
     --secondary-foreground: 222.2 47.4% 11.2%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 45 40% 96%;
+    --muted-foreground: 215.4 16.3% 35%;
 
-    --accent: 210 40% 96.1%;
+    --accent: 45 100% 92%;
     --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 20 15% 90%;
+    --input: 20 15% 90%;
+    --ring: 0 74% 48%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
+    --sidebar-primary: 0 74% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 45 100% 96%;
     --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 20 15% 90%;
+    --sidebar-ring: 0 74% 48%;
 
-    --sidebar-border: 220 13% 91%;
+    /* Gradients & effects */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary) / 0.95), hsl(8 90% 55%));
+    --gradient-subtle: radial-gradient(1200px 600px at 10% -10%, hsl(45 100% 96% / 0.7), transparent), radial-gradient(1200px 600px at 90% 110%, hsl(0 74% 48% / 0.07), transparent);
 
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --shadow-elegant: 0 12px 30px -12px hsl(var(--primary) / 0.35);
+    --shadow-glow: 0 0 0 6px hsl(var(--primary) / 0.12);
+
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .dark {
@@ -101,5 +104,20 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .bg-gradient-primary {
+    background-image: var(--gradient-primary);
+  }
+  .bg-gradient-subtle {
+    background-image: var(--gradient-subtle);
+  }
+  .shadow-elegant {
+    box-shadow: var(--shadow-elegant);
+  }
+  .ring-glow {
+    box-shadow: var(--shadow-glow);
   }
 }
