@@ -51,34 +51,32 @@ const Index = () => {
       </header>
 
       <main id="home" className="flex-1">
-        {/* Hero */}
-        <section className="relative">
-          <div className="absolute inset-0 bg-gradient-subtle pointer-events-none" aria-hidden />
-          <div className="container mx-auto grid md:grid-cols-2 gap-10 items-center py-16 md:py-24">
-            <div>
-              <h1 className="text-4xl md:text-5xl font-bold tracking-tight leading-tight mb-4">
-                Delicious cooking made simple
-              </h1>
-              <p className="text-muted-foreground text-lg mb-8 max-w-prose">
-                Explore easy, flavorful recipes and learn new skills with step-by-step classes. Perfect for beginners and home chefs alike.
-              </p>
-              <div className="flex flex-wrap gap-4">
-                <Button variant="hero" size="xl">Get Started</Button>
-                <Button variant="secondary" size="lg">View Recipes</Button>
+        {/* Hero (image overlay style) */}
+        <section className="container mx-auto py-8 md:py-12">
+          <div className="relative overflow-hidden rounded-2xl border border-border">
+            <img
+              src={heroImg}
+              alt="A delicious dish with utensils around it, cooking hero background"
+              className="absolute inset-0 h-full w-full object-cover"
+              decoding="async"
+              fetchPriority="high"
+            />
+            <div
+              className="absolute inset-0 bg-gradient-to-r from-foreground/80 via-foreground/60 to-transparent"
+              aria-hidden
+            />
+            <div className="relative grid md:grid-cols-[1fr_auto] gap-6 p-8 md:p-12 min-h-[280px] md:min-h-[360px]">
+              <div className="max-w-xl">
+                <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-3 text-[hsl(var(--on-image))]">
+                  Fresh from the kitchen, just how you want it
+                </h1>
+                <p className="text-[hsl(var(--on-image))]/80 text-base md:text-lg max-w-prose">
+                  We prepare timeless recipes with seasonal ingredients and clear, step‑by‑step guidance.
+                </p>
               </div>
-              <div className="mt-8 flex items-center gap-6 text-sm text-muted-foreground">
-                <div className="flex items-center gap-2"><Flame className="text-primary" /> 1000+ tasty recipes</div>
-                <div className="flex items-center gap-2"><Users className="text-primary" /> Join 10k+ cooks</div>
+              <div className="self-end justify-self-end">
+                <Button variant="secondary" size="lg">View menu</Button>
               </div>
-            </div>
-            <div className="relative">
-              <img
-                src={heroImg}
-                alt="Fresh ingredients and cooking scene with red and yellow accents"
-                className="w-full h-auto rounded-xl border border-border shadow-lg"
-                decoding="async"
-                fetchPriority="high"
-              />
             </div>
           </div>
         </section>
