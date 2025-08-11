@@ -1,0 +1,137 @@
+{
+  "header": {
+    "title": "Cuisinous - Marché pour Chefs à Domicile",
+    "description": "Vendez vos plats faits maison ou découvrez des chefs locaux. Notre plateforme connecte les amateurs de cuisine avec des chefs talentueux à travers notre tableau de bord web et applications mobiles.",
+    "features": "Fonctionnalités",
+    "sellers": "Pour Vendeurs",
+    "buyers": "Pour Clients",
+    "testimonials": "Témoignages",
+    "contact": "Contact",
+    "getStarted": "Commencer",
+    "home": "Accueil"
+  },
+  "hero": {
+    "title": "Découvrez des plats faits maison par des chefs de votre quartier",
+    "subtitle": "Achetez des repas délicieux faits maison ou vendez vos créations culinaires grâce à notre plateforme facile à utiliser.",
+    "sellButton": "Commencer à Vendre",
+    "downloadButton": "Télécharger l'App"
+  },
+  "features": {
+    "title": "L'Expérience Cuisinous",
+    "subtitle": "Que vous soyez un chef à domicile ou un passionné de cuisine, nous avons créé des outils pour rendre l'expérience agréable",
+    "location": {
+      "title": "Découverte par Localisation",
+      "description": "Trouvez et commandez auprès de chefs près de chez vous, avec disponibilité en temps réel et options de livraison."
+    },
+    "crossPlatform": {
+      "title": "Accès Multi-Plateforme",
+      "description": "Gérez votre activité culinaire sur le web ou via nos applications iOS et Android."
+    },
+    "safety": {
+      "title": "Transactions Sécurisées",
+      "description": "Paiements sécurisés et profils de chefs vérifiés pour une tranquillité d'esprit."
+    }
+  },
+  "sellers": {
+    "title": "Pour Chefs à Domicile",
+    "subtitle": "Transformez votre passion pour la cuisine en revenus. Notre plateforme vous offre tout ce dont vous avez besoin pour commencer à vendre vos plats faits maison.",
+    "features": [
+      "Tableau de bord facile à utiliser pour gérer votre menu et vos commandes",
+      "Définissez votre propre emploi du temps et options de livraison",
+      "Soyez payé en toute sécurité avec des dépôts automatiques",
+      "Bâtissez votre réputation avec les avis des clients"
+    ],
+    "button": "Commencer à Vendre Aujourd'hui"
+  },
+  "buyers": {
+    "title": "Pour Amateurs de Cuisine",
+    "subtitle": "Découvrez une cuisine authentique faite maison par des chefs talentueux de votre communauté.",
+    "features": [
+      "Parcourez par type de cuisine, besoins alimentaires ou localisation",
+      "Lisez les avis et consultez les notes des chefs",
+      "Planifiez des retraits ou faites-vous livrer",
+      "Enregistrez vos favoris et obtenez des recommandations personnalisées"
+    ],
+    "button": "Télécharger l'Application"
+  },
+  "testimonials": {
+    "title": "Ce Que Dit Notre Communauté",
+    "subtitle": "Écoutez les chefs et clients utilisant Cuisinous",
+    "quotes": [
+      {
+        "text": "J'ai doublé mes revenus en vendant mes plats jamaïcains tout en gardant mon emploi à temps plein. Le tableau de bord rend la gestion des commandes si simple.",
+        "author": "Marcus, Chef à Domicile"
+      },
+      {
+        "text": "En tant que mère occupée, j'adore pouvoir commander des plats faits maison authentiques à des cuisiniers talentueux près de chez moi. Cela a changé notre routine du dîner !",
+        "author": "Sarah, Client"
+      },
+      {
+        "text": "Les retours des clients m'ont aidé à améliorer mes recettes et leur présentation. J'ai construit une véritable communauté grâce à Cuisinous.",
+        "author": "Elena, Chef à Domicile"
+      }
+    ]
+  },
+  "signup": {
+    "title": "Prêt à Rejoindre Cuisinous ?",
+    "subtitle": "Créez votre compte en tant que chef ou amateur de cuisine et commencez votre voyage culinaire dès aujourd'hui.",
+    "chef": "Je suis un Chef",
+    "foodLover": "Je suis un Amateur de Cuisine",
+    "terms": "En vous inscrivant, vous acceptez nos Conditions d'Utilisation et Politique de Confidentialité"
+  },
+  "download": {
+    "title": "Téléchargez l'App Cuisinous",
+    "subtitle": "Disponible sur iOS et Android. Emportez le marché avec vous partout où vous allez.",
+    "appStore": "App Store",
+    "playStore": "Google Play"
+  },
+  "contact": {
+    "title": "Des Questions ?",
+    "subtitle": "Notre équipe est heureuse de vous aider avec toute question concernant la vente ou l'achat sur Cuisinous.",
+    "options": [
+      "Je suis un chef intéressé par la vente",
+      "Je suis un client avec une question",
+      "Demande de partenariat commercial",
+      "Autre"
+    ],
+    "send": "Envoyer le Message"
+  },
+  "terms": {
+    "title": "Conditions Générales d'Utilisation",
+    "metaDescription": "Lisez les conditions générales régissant votre utilisation de la plateforme de marché Cuisinous",
+    "lastUpdated": "Dernière mise à jour",
+    "introduction": {
+      "title": "INTRODUCTION",
+      "content": "Bienvenue sur Cuisinous. Ces Conditions Générales régissent votre accès et votre utilisation de notre site web, application mobile et services associés. En accédant ou utilisant nos Services, vous acceptez d'être lié par ces Conditions."
+    },
+    "definitions": {
+      "title": "DÉFINITIONS",
+      "user": "désigne toute personne accédant ou utilisant les Services, y compris les Clients et les Vendeurs.",
+      "customer": "désigne tout Utilisateur commandant des repas via la Plateforme.",
+      "vendor": "désigne toute personne ou entité proposant et vendant des repas via la Plateforme.",
+      "order": "désigne toute demande faite par un Client pour un repas proposé par un Vendeur.",
+      "platformOwner": "désigne l'entité exploitant et maintenant la Plateforme."
+    },
+    "scope": {
+      "title": "PORTÉE DES SERVICES",
+      "content": "La Plateforme sert de marché connectant les Clients avec les Vendeurs qui proposent des repas faits maison. Les Vendeurs sont seuls responsables de la préparation, de la qualité et de la sécurité de leurs repas. La Plateforme ne possède, ne prépare, ne stocke ni ne distribue aucun repas."
+    },
+    "accounts": {
+      "title": "COMPTES UTILISATEUR",
+      "registration": "Pour utiliser les Services, les Utilisateurs doivent créer un compte en fournissant des informations exactes et complètes.",
+      "security": "Les Utilisateurs sont responsables de la confidentialité de leurs identifiants de connexion et de toutes les activités sous leur compte.",
+      "eligibility": "Les Utilisateurs doivent avoir au moins 18 ans pour créer un compte."
+    },
+    "contact": {
+      "title": "INFORMATIONS DE CONTACT",
+      "content": "Pour toute question concernant ces Conditions, veuillez nous contacter à"
+    },
+    "acknowledgement": "En accédant ou utilisant nos Services, vous reconnaissez avoir lu, compris et accepté ces Conditions Générales."
+  },
+  "footer": {
+    "copyright": "© {{year}} Tous droits réservés.",
+    "terms": "Conditions",
+    "privacy": "Confidentialité",
+    "careers": "Carrières"
+  }
+}

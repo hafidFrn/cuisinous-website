@@ -1,0 +1,137 @@
+{
+  "header": {
+    "title": "Cuisinous - Marketplace for Home Chefs",
+    "description": "Sell your homemade food or discover local chefs in your area. Our platform connects food lovers with talented home chefs through our web dashboard and mobile apps.",
+    "features": "Features",
+    "sellers": "For Sellers",
+    "buyers": "For Buyers",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "getStarted": "Get Started",
+    "home": "Home"
+  },
+  "hero": {
+    "title": "Discover homemade food from chefs in your neighborhood",
+    "subtitle": "Buy delicious homemade meals or sell your culinary creations through our easy-to-use platform.",
+    "sellButton": "Start Selling",
+    "downloadButton": "Download App"
+  },
+  "features": {
+    "title": "The Cuisinous Experience",
+    "subtitle": "Whether you're a home chef or food enthusiast, we've built tools to make the experience delightful",
+    "location": {
+      "title": "Location-Based Discovery",
+      "description": "Find and order from chefs near you, with real-time availability and delivery options."
+    },
+    "crossPlatform": {
+      "title": "Cross-Platform Access",
+      "description": "Manage your food business on web or through our iOS and Android apps."
+    },
+    "safety": {
+      "title": "Safe Transactions",
+      "description": "Secure payments and verified chef profiles for peace of mind."
+    }
+  },
+  "sellers": {
+    "title": "For Home Chefs",
+    "subtitle": "Turn your passion for cooking into income. Our platform gives you everything you need to start selling your homemade food.",
+    "features": [
+      "Easy-to-use dashboard to manage your menu and orders",
+      "Set your own schedule and delivery options",
+      "Get paid securely with automatic deposits",
+      "Build your reputation with customer reviews"
+    ],
+    "button": "Start Selling Today"
+  },
+  "buyers": {
+    "title": "For Food Lovers",
+    "subtitle": "Discover authentic homemade food from talented chefs in your community.",
+    "features": [
+      "Browse by cuisine, dietary needs, or location",
+      "Read reviews and see chef ratings",
+      "Schedule pickups or get delivery",
+      "Save favorites and get personalized recommendations"
+    ],
+    "button": "Download the App"
+  },
+  "testimonials": {
+    "title": "What Our Community Says",
+    "subtitle": "Hear from chefs and customers using Cuisinous",
+    "quotes": [
+      {
+        "text": "I've doubled my income selling my Jamaican dishes while keeping my full-time job. The dashboard makes managing orders so simple.",
+        "author": "Marcus, Home Chef"
+      },
+      {
+        "text": "As a busy mom, I love being able to order authentic homemade meals from talented cooks in my area. It's changed our dinner routine!",
+        "author": "Sarah, Customer"
+      },
+      {
+        "text": "The customer feedback has helped me improve my recipes and presentation. I've built a real following through Cuisinous.",
+        "author": "Elena, Home Chef"
+      }
+    ]
+  },
+  "signup": {
+    "title": "Ready to join Cuisinous?",
+    "subtitle": "Create your account as a chef or food lover and start your culinary journey today.",
+    "chef": "I'm a Chef",
+    "foodLover": "I'm a Food Lover",
+    "terms": "By signing up, you agree to our Terms of Service and Privacy Policy"
+  },
+  "download": {
+    "title": "Get the Cuisinous App",
+    "subtitle": "Available for both iOS and Android. Take the marketplace with you wherever you go.",
+    "appStore": "App Store",
+    "playStore": "Google Play"
+  },
+  "contact": {
+    "title": "Have questions?",
+    "subtitle": "Our team is happy to help with any questions about selling or buying on Cuisinous.",
+    "options": [
+      "I'm a chef interested in selling",
+      "I'm a customer with a question",
+      "Business partnership inquiry",
+      "Other"
+    ],
+    "send": "Send Message"
+  },
+  "terms": {
+    "title": "Terms and Conditions of Service",
+    "metaDescription": "Read the terms and conditions governing your use of Cuisinous marketplace platform",
+    "lastUpdated": "Last Updated",
+    "introduction": {
+      "title": "INTRODUCTION",
+      "content": "Welcome to Cuisinous. These Terms and Conditions govern your access and use of our website, mobile application, and related services. By accessing or using our Services, you agree to be bound by these Terms."
+    },
+    "definitions": {
+      "title": "DEFINITIONS",
+      "user": "refers to any individual accessing or using the Services, including Customers and Vendors.",
+      "customer": "refers to any User ordering meals via the Platform.",
+      "vendor": "refers to any individual or entity offering and selling meals through the Platform.",
+      "order": "refers to any request made by a Customer for a meal offered by a Vendor.",
+      "platformOwner": "refers to the entity operating and maintaining the Platform."
+    },
+    "scope": {
+      "title": "SCOPE OF SERVICES",
+      "content": "The Platform serves as a marketplace connecting Customers with Vendors who offer homemade meals. Vendors are solely responsible for the preparation, quality, and safety of their meals. The Platform does not own, prepare, store, or distribute any meals."
+    },
+    "accounts": {
+      "title": "USER ACCOUNTS",
+      "registration": "To use the Services, Users must create an account, providing accurate and complete information.",
+      "security": "Users are responsible for maintaining the confidentiality of their login credentials and for all activities under their account.",
+      "eligibility": "Users must be at least 18 years old to create an account."
+    },
+    "contact": {
+      "title": "CONTACT INFORMATION",
+      "content": "For any questions regarding these Terms, please contact us at"
+    },
+    "acknowledgement": "By accessing or using our Services, you acknowledge that you have read, understood, and agreed to these Terms and Conditions."
+  },
+  "footer": {
+    "copyright": "© {{year}} All rights reserved.",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "careers": "Careers"
+  }
+}
