@@ -2,10 +2,13 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import "./i18n"; // Import the i18n configuration
+import LegalPages from "./pages/LegalPages";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -14,13 +17,14 @@ const App = () => (
       <Toaster />
       <Sonner />
       <HelmetProvider>
-        <BrowserRouter>
+        <Router>
           <Routes>
             <Route path="/" element={<Index />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
+            <Route path="/legal" element={<LegalPages />} />
           </Routes>
-        </BrowserRouter>
+        </Router>
       </HelmetProvider>
     </TooltipProvider>
   </QueryClientProvider>

@@ -126,3 +126,12 @@ All colors MUST be HSL.
     box-shadow: var(--shadow-glow);
   }
 }
+
+@media (min-width: 1024px) {
+    .lg\:grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .lg\:col-span-2 {
+        grid-column: span 2 / span 2;
+    }
+}

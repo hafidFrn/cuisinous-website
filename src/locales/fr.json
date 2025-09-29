@@ -1,0 +1,440 @@
+{
+  "meta": {
+    "title": "Cuisinous - Marketplace pour Chefs à Domicile",
+    "description": "Vendez votre cuisine maison ou découvrez des chefs locaux près de chez vous. Notre plateforme connecte les amateurs de cuisine avec des chefs talentueux via notre tableau de bord web et applications mobiles.",
+    "ogDescription": "Achetez et vendez de la cuisine maison avec des chefs locaux et des passionnés de cuisine."
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "sellers": "Pour Vendeurs",
+    "buyers": "Pour Acheteurs",
+    "testimonials": "Témoignages",
+    "contact": "Contact",
+    "getStarted": "Commencer",
+    "language": "Langue",
+    "legal": "Légal"
+  },
+  "hero": {
+    "title": "Découvrez la cuisine maison de chefs de votre quartier",
+    "subtitle": "Achetez des plats maison délicieux ou vendez vos créations culinaires via notre plateforme facile à utiliser.",
+    "startSelling": "Commencer à Vendre",
+    "downloadApp": "Télécharger l'App"
+  },
+  "features": {
+    "title": "L'Expérience Cuisinous",
+    "subtitle": "Que vous soyez chef à domicile ou amateur de cuisine, nous avons créé des outils pour une expérience agréable",
+    "location": {
+      "title": "Découverte par Localisation",
+      "description": "Trouvez et commandez auprès de chefs près de chez vous, avec disponibilité en temps réel et options de livraison."
+    },
+    "crossPlatform": {
+      "title": "Accès Multi-Plateforme",
+      "description": "Gérez votre activité culinaire sur web ou via nos applications iOS et Android."
+    },
+    "safety": {
+      "title": "Transactions Sécurisées",
+      "description": "Paiements sécurisés et profils de chefs vérifiés pour une tranquillité d'esprit."
+    }
+  },
+  "sellers": {
+    "title": "Pour les Chefs à Domicile",
+    "subtitle": "Transformez votre passion pour la cuisine en revenus. Notre plateforme vous donne tout ce dont vous avez besoin pour commencer à vendre votre cuisine maison.",
+    "features": [
+      "Tableau de bord facile à utiliser pour gérer votre menu et commandes",
+      "Définissez votre propre emploi du temps et options de livraison",
+      "Soyez payé en toute sécurité avec des dépôts automatiques",
+      "Construisez votre réputation avec les avis clients"
+    ],
+    "cta": "Commencer à Vendre Aujourd'hui"
+  },
+  "buyers": {
+    "title": "Pour les Amateurs de Cuisine",
+    "subtitle": "Découvrez une cuisine maison authentique préparée par des chefs talentueux de votre communauté.",
+    "features": [
+      "Parcourez par cuisine, besoins alimentaires ou localisation",
+      "Lisez les avis et consultez les notations des chefs",
+      "Planifiez des retraits ou faites-vous livrer",
+      "Sauvegardez vos favoris et obtenez des recommandations personnalisées"
+    ],
+    "cta": "Télécharger l'Application"
+  },
+  "testimonials": {
+    "title": "Ce Que Dit Notre Communauté",
+    "subtitle": "Découvrez les témoignages de chefs et clients utilisant Cuisinous",
+    "testimonials": [
+      {
+        "text": "J'ai doublé mes revenus en vendant mes plats jamaïcains tout en gardant mon emploi à temps plein. Le tableau de bord rend la gestion des commandes si simple.",
+        "author": "Marcus, Chef à Domicile"
+      },
+      {
+        "text": "En tant que maman occupée, j'adore pouvoir commander des plats maison authentiques à des cuisiniers talentueux de ma région. Cela a changé notre routine du dîner !",
+        "author": "Sarah, Cliente"
+      },
+      {
+        "text": "Les retours clients m'ont aidé à améliorer mes recettes et ma présentation. J'ai construit une vraie communauté grâce à Cuisinous.",
+        "author": "Elena, Chef à Domicile"
+      }
+    ]
+  },
+  "signup": {
+    "title": "Prêt à rejoindre Cuisinous ?",
+    "subtitle": "Créez votre compte en tant que chef ou amateur de cuisine et commencez votre voyage culinaire aujourd'hui.",
+    "chef": "Je suis un Chef",
+    "foodLover": "Je suis un Amateur de Cuisine",
+    "signUpSell": "S'inscrire pour Vendre",
+    "signUpBuy": "S'inscrire pour Acheter",
+    "terms": "En vous inscrivant, vous acceptez nos Conditions d'Utilisation et Politique de Confidentialité"
+  },
+  "download": {
+    "title": "Téléchargez l'Application Cuisinous",
+    "subtitle": "Disponible sur iOS et Android. Emportez le marché avec vous où que vous alliez.",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "contact": {
+    "title": "Des questions ?",
+    "subtitle": "Notre équipe est heureuse de vous aider avec toutes vos questions sur la vente ou l'achat sur Cuisinous.",
+    "name": "Votre nom",
+    "email": "Adresse email",
+    "subject": {
+      "label": "Sujet",
+      "options": [
+        "Je suis un chef intéressé par la vente",
+        "Je suis un client avec une question",
+        "Demande de partenariat commercial",
+        "Autre"
+      ]
+    },
+    "message": "Votre message",
+    "send": "Envoyer le Message"
+  },
+  "footer": {
+    "copyright": "© {{year}} Tous droits réservés.",
+    "terms": "Conditions",
+    "privacy": "Confidentialité",
+    "careers": "Carrières",
+    "contact": "Contact"
+  },
+  "language": {
+    "en": "English",
+    "fr": "Français"
+  },
+  "legal": {
+    "title": "Documents Légaux",
+    "subtitle": "Consultez nos conditions, politiques et accords",
+    "navigation": "Documents",
+    "lastUpdated": "Dernière mise à jour",
+    "contact": {
+      "title": "Contact",
+      "description": "Pour toute question concernant nos documents légaux",
+      "email": "support@cuisinous.ca",
+      "privacyEmail": "privacy@cuisinous.ca"
+    },
+    "backToHome": "Retour",
+
+    "refund": {
+      "title": "Politique d’annulation et de remboursement"
+    },
+    "customer": {
+      "title": "Conditions générales – Clients (CG)"
+    },
+
+    "privacy": {
+      "title": "Politique de Confidentialité",
+      "sections": {
+        "welcome": "Bienvenue chez Cuisinous!",
+        "introduction": "Votre confiance est notre priorité. Nous nous engageons à protéger vos renseignements personnels et à les utiliser de manière transparente et sécurisée. La présente Politique de confidentialité explique en détail quelles données nous recueillons, comment elles sont utilisées, comment elles sont protégées et quels sont vos droits. En accédant à notre site ou à notre application, vous acceptez cette Politique.",
+
+        "informationWeCollect": {
+          "title": "1. Renseignements que nous recueillons",
+          "content": "Nous pouvons recueillir les catégories suivantes : Données d'identification : nom, prénom, adresse courriel, numéro de téléphone, date de naissance, documents d'identité. Données de compte : statut (vendeur ou client), informations de connexion. Informations financières : détails de paiement, historique de transactions. Données de géolocalisation : afin de proposer les repas disponibles près de chez vous. Contenu fourni par l'utilisateur : avis, évaluations, photos, menus, messages. Données techniques : adresse IP, type d'appareil, système d'exploitation, cookies."
+        },
+
+        "purposeOfUse": {
+          "title": "2. Finalités de l'utilisation",
+          "content": "Vos données sont utilisées pour : Gérer votre compte et vérifier votre identité. Traiter les commandes, paiements et livraisons. Améliorer nos services (recommandations personnalisées, promotions). Assurer la sécurité de la plateforme et prévenir la fraude. Respecter les obligations légales (fiscales, de sécurité alimentaire, etc.). Vous communiquer des mises à jour, infolettres et promotions (avec votre consentement)."
+        },
+
+        "sharingInformation": {
+          "title": "3. Partage de vos renseignements",
+          "content": "Nous ne vendons jamais vos renseignements personnels. Cependant, ils peuvent être partagés avec : Fournisseurs de paiement pour traiter les transactions. Partenaires logistiques/livraison (si applicable). Prestataires de services techniques (hébergement, support TI, analyse). Autorités publiques si requis par la loi."
+        },
+
+        "dataRetention": {
+          "title": "4. Conservation des données",
+          "content": "Nous conservons vos renseignements aussi longtemps que votre compte est actif ou que la loi l'exige (ex. 7 ans pour certaines données financières). Les comptes inactifs peuvent être supprimés ou anonymisés après une période raisonnable."
+        },
+
+        "security": {
+          "title": "5. Sécurité",
+          "content": "Nous appliquons des mesures de sécurité administratives, techniques et physiques pour protéger vos renseignements (cryptage, contrôle d'accès, sauvegardes). Toutefois, aucun système n'est infaillible et nous encourageons l'utilisation de mots de passe forts."
+        },
+
+        "yourRights": {
+          "title": "6. Vos droits (Loi 25 – Québec & lois canadiennes)",
+          "content": "Vous disposez des droits suivants : Accès à vos renseignements. Rectification ou suppression de vos données. Retrait du consentement à tout moment (sauf obligations légales). Portabilité de certaines données, lorsque applicable. Dépôt d'une plainte auprès de la Commission d'accès à l'information du Québec."
+        },
+
+        "childrenData": {
+          "title": "7. Données de mineurs",
+          "content": "Notre service n'est pas destiné aux personnes de moins de 14 ans. Les mineurs de 14 à 18 ans doivent obtenir le consentement parental pour s'inscrire comme vendeurs."
+        },
+
+        "cookies": {
+          "title": "8. Témoins (cookies)",
+          "content": "Nous utilisons des cookies pour : Assurer le fonctionnement du site. Analyser l'utilisation et améliorer l'expérience. Personnaliser les promotions. Vous pouvez gérer vos préférences dans les paramètres de votre navigateur."
+        },
+
+        "internationalTransfers": {
+          "title": "9. Transferts internationaux",
+          "content": "Si des données sont transférées en dehors du Canada, elles seront traitées conformément aux lois applicables et protégées par des garanties contractuelles appropriées."
+        },
+
+        "policyUpdates": {
+          "title": "10. Modifications de la politique",
+          "content": "Nous pouvons mettre à jour cette Politique. La date de la dernière mise à jour sera toujours indiquée."
+        },
+
+        "contact": {
+          "title": "11. Contact",
+          "content": "Pour toute question ou pour exercer vos droits : privacy@cuisinous.ca Cuisinous Inc., Québec, Canada En vigueur à compter du [date de lancement officiel]."
+        }
+      }
+    },
+
+    "terms": {
+      "title": "Conditions Générales d'Utilisation",
+      "sections": {
+        "welcome": "Bienvenue sur Cuisinous !",
+        "introduction": "En utilisant notre application ou notre site web, vous acceptez les présentes Conditions Générales d'Utilisation. Veuillez les lire attentivement.",
+
+        "purpose": {
+          "title": "1. Objet",
+          "content": "Les présentes CGU définissent les règles d'utilisation de la plateforme Cuisinous, qui met en relation : des fournisseurs (chefs ou vendeurs) qui proposent des repas faits maison, et des clients qui recherchent et commandent ces repas. Cuisinous agit uniquement comme intermédiaire et ne prépare ni ne livre les repas."
+        },
+
+        "registration": {
+          "title": "2. Inscription et Compte",
+          "content": "Tout utilisateur doit créer un compte avec un email et un numéro de téléphone valides. Les fournisseurs doivent fournir des documents requis pour vérification (pièce d'identité, permis ou certificats si applicables). Chaque utilisateur est responsable de la confidentialité de ses identifiants."
+        },
+
+        "useOfPlatform": {
+          "title": "3. Utilisation de la Plateforme",
+          "content": "Les clients peuvent explorer les menus et commander des repas auprès de fournisseurs locaux. Les fournisseurs publient leurs offres, fixent leurs prix et sont responsables de la qualité et de la conformité de leurs repas. Tout contenu publié (photos, descriptions) doit être exact et respectueux."
+        },
+
+        "payments": {
+          "title": "4. Paiements et Commissions",
+          "content": "Tous les paiements se font via la plateforme Cuisinous. Une commission de 20 % est retenue sur chaque transaction (couvrant les frais de service et de fonctionnement). Les fonds restants sont reversés aux fournisseurs après déduction des frais applicables."
+        },
+
+        "responsibilities": {
+          "title": "5. Responsabilités",
+          "content": "Fournisseurs : garantir l'hygiène, la sécurité alimentaire, et respecter les lois locales. Clients : utiliser les services de manière légale et respectueuse. Cuisinous : agit comme intermédiaire technologique et n'est pas responsable de la préparation, de la qualité ou de la livraison des repas."
+        },
+
+        "cancellations": {
+          "title": "6. Annulations et Remboursements",
+          "content": "Les politiques d'annulation et de remboursement sont définies dans chaque offre par le fournisseur, sous réserve des règles de la plateforme. Cuisinous se réserve le droit d'intervenir en cas de litige, mais ne garantit pas un remboursement automatique."
+        },
+
+        "dataProtection": {
+          "title": "7. Protection des Données",
+          "content": "Les données personnelles sont collectées et traitées conformément à notre Politique de Confidentialité."
+        },
+
+        "intellectualProperty": {
+          "title": "8. Propriété Intellectuelle",
+          "content": "Tous les éléments de la plateforme (logo, contenu, design) appartiennent à Cuisinous et ne peuvent être utilisés sans autorisation."
+        },
+
+        "suspension": {
+          "title": "9. Suspension ou Résiliation",
+          "content": "Cuisinous peut suspendre ou résilier un compte en cas de fraude, non-respect des règles, ou comportement inapproprié."
+        },
+
+        "governingLaw": {
+          "title": "10. Droit Applicable",
+          "content": "Les présentes CGU sont régies par les lois du Québec et du Canada."
+        },
+
+        "contact": {
+          "title": "Contact",
+          "content": "Pour toute question : support@cuisinous.ca"
+        }
+      }
+    },
+    "safety": {
+      "title": "Sécurité alimentaire et hygiène",
+      "sections": {
+        "introduction": "Chez Cuisinous, la sécurité alimentaire et la santé de nos clients sont une priorité absolue. Tous les Fournisseurs (chefs ou cuisiniers indépendants) qui offrent leurs services sur la plateforme doivent respecter les normes suivantes :",
+
+        "mapaqRegulations": {
+          "title": "1. Règlementation du MAPAQ",
+          "content": "Chaque Fournisseur doit se conformer aux règlements en vigueur du MAPAQ, notamment : L'obtention de toute certification ou enregistrement requis. Le respect des normes d'hygiène lors de la préparation, de la conservation et du transport des repas. La formation en hygiène et salubrité alimentaires, lorsque applicable."
+        },
+
+        "hygienePreparation": {
+          "title": "2. Hygiène et préparation",
+          "content": "Les repas doivent être préparés dans un environnement propre et sécuritaire. Les ustensiles, surfaces et équipements doivent être désinfectés régulièrement. Les ingrédients doivent être frais et entreposés à la bonne température."
+        },
+
+        "allergies": {
+          "title": "3. Allergies et informations sur les ingrédients",
+          "content": "Les Fournisseurs doivent décrire clairement les ingrédients utilisés dans leurs plats. Il est de la responsabilité du Client de vérifier les ingrédients avant de commander. Cuisinous décline toute responsabilité en cas de réaction allergique si l'information a été communiquée correctement par le Fournisseur."
+        },
+
+        "compliance": {
+          "title": "4. Contrôle et responsabilité",
+          "content": "Cuisinous peut suspendre ou retirer tout Fournisseur ne respectant pas les normes de salubrité du MAPAQ. Les Fournisseurs sont les seuls responsables de la conformité légale et sanitaire de leurs repas."
+        }
+      }
+    },
+    "generalConditions": {
+      "title": "Conditions Générales d’Utilisation – Clients (CGU)",
+      "intro": "Bienvenue sur Cuisinous ! En utilisant notre plateforme, vous acceptez les présentes Conditions Générales d’Utilisation (CGU). Veuillez les lire attentivement avant de commander.",
+      "sections": {
+        "1": {
+          "title": "Objet",
+          "content": "Les présentes CGU définissent les règles applicables aux utilisateurs (« Clients ») qui commandent des repas faits maison via Cuisinous."
+        },
+        "2": {
+          "title": "Inscription et Compte",
+          "points": [
+            "Le Client doit fournir des informations exactes et à jour lors de l’inscription.",
+            "Le Client est responsable de la confidentialité de ses identifiants.",
+            "Toute utilisation frauduleuse du compte engage la responsabilité du Client."
+          ]
+        },
+        "3": {
+          "title": "Commandes et Paiements",
+          "points": [
+            "Les repas sont proposés par des Fournisseurs indépendants.",
+            "Le Client s’engage à payer le prix indiqué, incluant taxes et frais applicables.",
+            "Les paiements sont sécurisés et traités via nos partenaires de paiement."
+          ]
+        },
+        "4": {
+          "title": "Responsabilité",
+          "points": [
+            "Les repas sont préparés par des Fournisseurs indépendants.",
+            "Cuisinous n’est pas responsable de la préparation, de la qualité, des ingrédients ou d’éventuelles réactions allergiques.",
+            "Le Client doit vérifier les informations sur les ingrédients et allergènes avant toute commande."
+          ]
+        },
+        "5": {
+          "title": "Annulation et Remboursement",
+          "points": [
+            "Les conditions d’annulation varient selon le Fournisseur et seront indiquées au moment de la commande.",
+            "Les remboursements ne sont possibles que dans les cas prévus par la politique de remboursement affichée sur la plateforme."
+          ]
+        },
+        "6": {
+          "title": "Utilisation de la Plateforme",
+          "points": [
+            "Le Client s’engage à utiliser Cuisinous de manière légale et respectueuse.",
+            "Tout abus, fraude ou comportement inapproprié peut entraîner la suspension du compte."
+          ]
+        },
+        "7": {
+          "title": "Propriété Intellectuelle",
+          "points": [
+            "Tous les contenus de la plateforme (textes, images, logo) appartiennent à Cuisinous ou sont utilisés avec autorisation.",
+            "Toute reproduction non autorisée est interdite."
+          ]
+        },
+        "8": {
+          "title": "Données Personnelles",
+          "content": "Le traitement des données est régi par notre Politique de Confidentialité."
+        },
+        "9": {
+          "title": "Droit Applicable",
+          "content": "Les présentes CGU sont régies par les lois du Québec et du Canada."
+        }
+      },
+      "footer": "En commandant sur Cuisinous, le Client reconnaît avoir lu et accepté ces CGU."
+    },
+    "cancellationRefundPolicy": {
+      "title": "Politique d’Annulation et de Remboursement",
+      "intro": "Bienvenue sur Cuisinous. Cette politique explique les conditions d’annulation et de remboursement applicables aux commandes effectuées sur notre plateforme.",
+      "sections": {
+        "1": {
+          "title": "Annulation par le Client",
+          "points": [
+            "Une commande peut être annulée dans les 15 minutes suivant sa confirmation pour un remboursement complet.",
+            "Passé ce délai, l’annulation dépendra des conditions du Fournisseur (chef) qui prépare le repas.",
+            "Les commandes déjà en préparation ou prêtes à être livrées/ramassées ne sont pas remboursables."
+          ]
+        },
+        "2": {
+          "title": "Annulation par le Fournisseur (Chef)",
+          "points": [
+            "Si un Fournisseur annule une commande (rupture d’ingrédients, imprévu…), le Client sera intégralement remboursé.",
+            "Le remboursement sera effectué automatiquement via le mode de paiement utilisé."
+          ]
+        },
+        "3": {
+          "title": "Commandes Incorrectes ou Incomplètes",
+          "points": [
+            "Si le Client reçoit un repas non conforme à la commande (ex. mauvais plat, portion manquante), il doit contacter Cuisinous dans les 24 heures suivant la réception.",
+            "Après vérification, un remboursement partiel ou complet pourra être accordé."
+          ]
+        },
+        "4": {
+          "title": "Qualité et Allergies",
+          "points": [
+            "Les Fournisseurs sont responsables de la qualité et de la description de leurs repas.",
+            "Cuisinous ne peut être tenu responsable des réactions allergiques si le Client n’a pas vérifié les ingrédients avant de commander.",
+            "Aucun remboursement ne sera accordé pour une erreur liée à une allergie non signalée."
+          ]
+        },
+        "5": {
+          "title": "Délais de Remboursement",
+          "points": [
+            "Les remboursements sont traités dans un délai de 5 à 10 jours ouvrables selon le mode de paiement."
+          ]
+        }
+      },
+      "footer": "En utilisant Cuisinous, vous acceptez cette politique d’annulation et de remboursement."
+    },
+    "vendorAgreement": {
+      "title": "Contrat Fournisseur – Cuisinous",
+      "intro": "Ce contrat est conclu entre :\nCuisinous (« la Plateforme »)\net\n[Nom du Fournisseur] (« le Fournisseur »),\nensemble « les Parties ».",
+      "purpose": "Le présent contrat définit les conditions selon lesquelles le Fournisseur propose ses repas faits maison via la plateforme Cuisinous.",
+      "vendorObligations": [
+        "Préparer et vendre des repas dans le respect des normes d’hygiène et de sécurité alimentaire applicables au Québec.",
+        "Fournir des informations exactes sur les ingrédients, allergènes et prix.",
+        "Livrer ou mettre à disposition les repas aux clients conformément aux délais convenus.",
+        "Détenir toutes licences, permis et autorisations légales nécessaires.",
+        "Maintenir une attitude respectueuse et professionnelle envers les clients et la Plateforme."
+      ],
+      "cuisinousObligations": [
+        "Fournir au Fournisseur un accès à la plateforme pour publier et vendre ses repas.",
+        "Traiter les paiements et reverser les fonds nets (après commissions et frais applicables) au Fournisseur.",
+        "Offrir une assistance technique raisonnable en cas de besoin."
+      ],
+      "commissionsAndPayments": [
+        "Chaque vente est soumise à une commission de 20 % retenue par Cuisinous.",
+        "Le paiement du solde au Fournisseur est effectué par virement bancaire [ex. hebdomadaire/mensuel] selon les paramètres de la plateforme.",
+        "Le Fournisseur accepte que les frais de transaction et de traitement soient déduits des montants dus."
+      ],
+      "responsibilities": [
+        "Le Fournisseur est seul responsable de la qualité, de la préparation et de la sécurité des repas.",
+        "Cuisinous agit uniquement comme intermédiaire et ne peut être tenu responsable des repas fournis par le Fournisseur."
+      ],
+      "intellectualProperty": "Le Fournisseur conserve la propriété de ses recettes et contenus. Il accorde toutefois à Cuisinous une licence non exclusive et gratuite pour utiliser ses photos et descriptions dans le cadre de la promotion de la plateforme.",
+      "termAndTermination": [
+        "Le contrat entre en vigueur à la date d’acceptation et reste valable jusqu’à sa résiliation.",
+        "Chaque partie peut mettre fin au contrat avec un préavis écrit de 15 jours.",
+        "En cas de violation grave (fraude, non-respect des règles, plaintes répétées), Cuisinous se réserve le droit de résilier le contrat immédiatement."
+      ],
+      "governingLaw": "Le présent contrat est régi par les lois du Québec et du Canada.",
+      "signatures": [
+        "✍️ Signature du Fournisseur: ____________________",
+        "📅 Date: ____________________",
+        "✍️ Pour Cuisinous: ____________________",
+        "📅 Date: ____________________"
+      ]
+    }
+  }
+}

@@ -1,0 +1,439 @@
+{
+  "meta": {
+    "title": "Cuisinous - Marketplace for Home Chefs",
+    "description": "Sell your homemade food or discover local chefs in your area. Our platform connects food lovers with talented home chefs through our web dashboard and mobile apps.",
+    "ogDescription": "Buy and sell homemade food with local chefs and food enthusiasts."
+  },
+  "nav": {
+    "features": "Features",
+    "sellers": "For Sellers",
+    "buyers": "For Buyers",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "getStarted": "Get Started",
+    "language": "Language",
+    "legal": "Legal"
+  },
+  "hero": {
+    "title": "Discover homemade food from chefs in your neighborhood",
+    "subtitle": "Buy delicious homemade meals or sell your culinary creations through our easy-to-use platform.",
+    "startSelling": "Start Selling",
+    "downloadApp": "Download App"
+  },
+  "features": {
+    "title": "The Cuisinous Experience",
+    "subtitle": "Whether you're a home chef or food enthusiast, we've built tools to make the experience delightful",
+    "location": {
+      "title": "Location-Based Discovery",
+      "description": "Find and order from chefs near you, with real-time availability and delivery options."
+    },
+    "crossPlatform": {
+      "title": "Cross-Platform Access",
+      "description": "Manage your food business on web or through our iOS and Android apps."
+    },
+    "safety": {
+      "title": "Safe Transactions",
+      "description": "Secure payments and verified chef profiles for peace of mind."
+    }
+  },
+  "sellers": {
+    "title": "For Home Chefs",
+    "subtitle": "Turn your passion for cooking into income. Our platform gives you everything you need to start selling your homemade food.",
+    "features": [
+      "Easy-to-use dashboard to manage your menu and orders",
+      "Set your own schedule and delivery options",
+      "Get paid securely with automatic deposits",
+      "Build your reputation with customer reviews"
+    ],
+    "cta": "Start Selling Today"
+  },
+  "buyers": {
+    "title": "For Food Lovers",
+    "subtitle": "Discover authentic homemade food from talented chefs in your community.",
+    "features": [
+      "Browse by cuisine, dietary needs, or location",
+      "Read reviews and see chef ratings",
+      "Schedule pickups or get delivery",
+      "Save favorites and get personalized recommendations"
+    ],
+    "cta": "Download the App"
+  },
+  "testimonials": {
+    "title": "What Our Community Says",
+    "subtitle": "Hear from chefs and customers using Cuisinous",
+    "testimonials": [
+      {
+        "text": "I've doubled my income selling my Jamaican dishes while keeping my full-time job. The dashboard makes managing orders so simple.",
+        "author": "Marcus, Home Chef"
+      },
+      {
+        "text": "As a busy mom, I love being able to order authentic homemade meals from talented cooks in my area. It's changed our dinner routine!",
+        "author": "Sarah, Customer"
+      },
+      {
+        "text": "The customer feedback has helped me improve my recipes and presentation. I've built a real following through Cuisinous.",
+        "author": "Elena, Home Chef"
+      }
+    ]
+  },
+  "signup": {
+    "title": "Ready to join Cuisinous?",
+    "subtitle": "Create your account as a chef or food lover and start your culinary journey today.",
+    "chef": "I'm a Chef",
+    "foodLover": "I'm a Food Lover",
+    "signUpSell": "Sign Up to Sell",
+    "signUpBuy": "Sign Up to Buy",
+    "terms": "By signing up, you agree to our Terms of Service and Privacy Policy"
+  },
+  "download": {
+    "title": "Get the Cuisinous App",
+    "subtitle": "Available for both iOS and Android. Take the marketplace with you wherever you go.",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "contact": {
+    "title": "Have questions?",
+    "subtitle": "Our team is happy to help with any questions about selling or buying on Cuisinous.",
+    "name": "Your name",
+    "email": "Email address",
+    "subject": {
+      "label": "Subject",
+      "options": [
+        "I'm a chef interested in selling",
+        "I'm a customer with a question",
+        "Business partnership inquiry",
+        "Other"
+      ]
+    },
+    "message": "Your message",
+    "send": "Send Message"
+  },
+  "footer": {
+    "copyright": "© {{year}} All rights reserved.",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "careers": "Careers",
+    "contact": "Contact"
+  },
+  "language": {
+    "en": "English",
+    "fr": "Français"
+  },
+  "legal": {
+    "title": "Legal Documents",
+    "subtitle": "Review our terms, policies, and agreements",
+    "navigation": "Documents",
+    "lastUpdated": "Last updated",
+    "contact": {
+      "title": "Contact",
+      "description": "For any questions regarding our legal documents",
+      "email": "support@cuisinous.ca",
+      "privacyEmail": "privacy@cuisinous.ca"
+    },
+
+    "backToHome": "Back",
+    "refund": {
+      "title": "Cancellation & Refund Policy"
+    },
+    "customer": {
+      "title": "Terms of Service – Customers (ToS)"
+    },
+
+    "privacy": {
+      "title": "Privacy Policy",
+      "sections": {
+        "welcome": "Welcome to Cuisinous!",
+        "introduction": "Your trust matters to us. We are committed to protecting your personal information and using it in a transparent and secure manner. This Privacy Policy explains in detail what data we collect, how it is used, how it is protected, and your rights. By accessing our site or application, you agree to this Policy.",
+
+        "informationWeCollect": {
+          "title": "1. Information We Collect",
+          "content": "We may collect the following categories: Identification data: name, email, phone number, date of birth, ID documents. Account data: vendor or customer status, login credentials. Financial data: payment details, transaction history. Geolocation data: to show available meals nearby. User content: reviews, ratings, photos, menus, messages. Technical data: IP address, device type, operating system, cookies."
+        },
+
+        "purposeOfUse": {
+          "title": "2. Purpose of Use",
+          "content": "Your information is used to: Manage and verify your account. Process orders, payments, and deliveries. Improve our services (personalized recommendations, promotions). Ensure security and prevent fraud. Comply with legal obligations (tax, food safety, etc.). Communicate updates, newsletters, and promotions (with your consent)."
+        },
+
+        "sharingInformation": {
+          "title": "3. Sharing of Information",
+          "content": "We never sell your personal data. We may share it only with: Payment providers to process transactions. Delivery/logistics partners (if applicable). Technical service providers (hosting, analytics, IT support). Public authorities when legally required."
+        },
+
+        "dataRetention": {
+          "title": "4. Data Retention",
+          "content": "We retain your information as long as your account is active or as required by law (e.g., 7 years for financial data). Inactive accounts may be deleted or anonymized after a reasonable period."
+        },
+
+        "security": {
+          "title": "5. Security",
+          "content": "We apply administrative, technical, and physical safeguards (encryption, access control, backups). However, no system is fully secure, and we encourage strong password use."
+        },
+
+        "yourRights": {
+          "title": "6. Your Rights (Law 25 – Québec & Canadian laws)",
+          "content": "You have the right to: Access your information. Request correction or deletion. Withdraw consent at any time (except where legally required). Data portability, where applicable. File a complaint with the Commission d'accès à l'information du Québec."
+        },
+
+        "childrenData": {
+          "title": "7. Children's Data",
+          "content": "Our service is not intended for individuals under 14. Minors aged 14–18 must have parental consent to register as vendors."
+        },
+
+        "cookies": {
+          "title": "8. Cookies",
+          "content": "We use cookies to: Ensure the site works properly. Analyze usage and improve experience. Personalize promotions. You can manage cookie preferences in your browser."
+        },
+
+        "internationalTransfers": {
+          "title": "9. International Transfers",
+          "content": "If data is transferred outside Canada, it will be handled according to applicable privacy laws and protected by contractual safeguards."
+        },
+
+        "policyUpdates": {
+          "title": "10. Policy Updates",
+          "content": "We may update this Policy. The 'last updated' date will always be displayed."
+        },
+
+        "contact": {
+          "title": "11. Contact",
+          "content": "For any questions or to exercise your rights: privacy@cuisinous.ca Cuisinous Inc., Québec, Canada Effective as of [official launch date]."
+        }
+      }
+    },
+    "terms": {
+      "title": "Terms & Conditions",
+      "sections": {
+        "welcome": "Welcome to Cuisinous!",
+        "introduction": "By using our app or website, you agree to these Terms & Conditions. Please read them carefully.",
+
+        "purpose": {
+          "title": "1. Purpose",
+          "content": "These T&C define the rules for using the Cuisinous platform, which connects: Vendors (chefs) offering homemade meals, and Customers looking to order such meals. Cuisinous acts solely as a facilitator and does not cook or deliver meals."
+        },
+
+        "registration": {
+          "title": "2. Registration and Account",
+          "content": "All users must create an account with a valid email and phone number. Vendors must provide required documents for verification (ID, licenses, or certificates when applicable). Users are responsible for maintaining the confidentiality of their login credentials."
+        },
+
+        "useOfPlatform": {
+          "title": "3. Use of the Platform",
+          "content": "Customers can browse menus and order meals from local vendors. Vendors post their offers, set their own prices, and are fully responsible for the quality and compliance of their meals. All content (photos, descriptions) must be accurate and respectful."
+        },
+
+        "payments": {
+          "title": "4. Payments and Commissions",
+          "content": "All payments are processed through the Cuisinous platform. A 20% commission is charged on each transaction (covering service and operational fees). Remaining funds are transferred to vendors after deductions."
+        },
+
+        "responsibilities": {
+          "title": "5. Responsibilities",
+          "content": "Vendors: must ensure hygiene, food safety, and compliance with local laws. Customers: must use the platform legally and respectfully. Cuisinous: acts as a technology intermediary and is not liable for the preparation, quality, or delivery of meals."
+        },
+
+        "cancellations": {
+          "title": "6. Cancellations and Refunds",
+          "content": "Cancellation and refund policies are set by each vendor, subject to platform rules. Cuisinous may intervene in disputes but does not guarantee refunds."
+        },
+
+        "dataProtection": {
+          "title": "7. Data Protection",
+          "content": "Personal data is collected and processed in accordance with our Privacy Policy."
+        },
+
+        "intellectualProperty": {
+          "title": "8. Intellectual Property",
+          "content": "All elements of the platform (logo, design, content) are the property of Cuisinous and may not be used without authorization."
+        },
+
+        "suspension": {
+          "title": "9. Suspension or Termination",
+          "content": "Cuisinous may suspend or terminate an account in cases of fraud, rule violations, or inappropriate behavior."
+        },
+
+        "governingLaw": {
+          "title": "10. Governing Law",
+          "content": "These T&C are governed by the laws of Québec and Canada."
+        },
+
+        "contact": {
+          "title": "Contact",
+          "content": "For any questions: support@cuisinous.ca"
+        }
+      }
+    },
+    "safety": {
+      "title": "Food Safety and Hygiene",
+      "sections": {
+        "introduction": "At Cuisinous, food safety and customer health are our top priorities. All Vendors (chefs or independent cooks) using the platform must comply with the following standards:",
+
+        "mapaqRegulations": {
+          "title": "1. MAPAQ Regulations",
+          "content": "Each Vendor must comply with MAPAQ (Ministère de l'Agriculture, des Pêcheries et de l'Alimentation du Québec) rules, including: Obtaining any required certification or registration. Following hygiene standards during preparation, storage, and transport of meals. Completing food hygiene and safety training, where applicable."
+        },
+
+        "hygienePreparation": {
+          "title": "2. Hygiene and Preparation",
+          "content": "Meals must be prepared in a clean and safe environment. Utensils, surfaces, and equipment must be sanitized regularly. Ingredients must be fresh and stored at appropriate temperatures."
+        },
+
+        "allergies": {
+          "title": "3. Allergies and Ingredient Information",
+          "content": "Vendors must clearly list the ingredients in their dishes. It is the Client's responsibility to check ingredients before ordering. Cuisinous is not liable for allergic reactions if the information was properly disclosed by the Vendor."
+        },
+
+        "compliance": {
+          "title": "4. Compliance and Responsibility",
+          "content": "Cuisinous reserves the right to suspend or remove any Vendor not complying with MAPAQ health and safety standards. Vendors remain fully responsible for the legal and sanitary compliance of their meals."
+        }
+      }
+    },
+    "generalConditions": {
+      "title": "Terms of Service – Customers (ToS)",
+      "intro": "Welcome to Cuisinous! By using our platform, you agree to the following Terms of Service (ToS). Please read them carefully before placing an order.",
+      "sections": {
+        "1": {
+          "title": "Purpose",
+          "content": "These ToS set the rules for customers (“Clients”) who order homemade meals through Cuisinous."
+        },
+        "2": {
+          "title": "Registration and Account",
+          "points": [
+            "Clients must provide accurate and up-to-date information during registration.",
+            "Clients are responsible for keeping login credentials confidential.",
+            "Any fraudulent use of the account is the Client’s responsibility."
+          ]
+        },
+        "3": {
+          "title": "Orders and Payments",
+          "points": [
+            "Meals are offered by independent Vendors.",
+            "Clients agree to pay the displayed price, including applicable taxes and fees.",
+            "Payments are processed securely via our payment partners."
+          ]
+        },
+        "4": {
+          "title": "Liability",
+          "points": [
+            "Meals are prepared by independent Vendors.",
+            "Cuisinous is not responsible for preparation, quality, ingredients, or allergic reactions.",
+            "Clients must check ingredients and allergen details before ordering."
+          ]
+        },
+        "5": {
+          "title": "Cancellation and Refunds",
+          "points": [
+            "Cancellation conditions vary by Vendor and are displayed at the time of order.",
+            "Refunds are only possible in accordance with the refund policy displayed on the platform."
+          ]
+        },
+        "6": {
+          "title": "Platform Use",
+          "points": [
+            "Clients agree to use Cuisinous in a lawful and respectful manner.",
+            "Abuse, fraud, or inappropriate behavior may result in account suspension."
+          ]
+        },
+        "7": {
+          "title": "Intellectual Property",
+          "points": [
+            "All content on the platform (texts, images, logo) belongs to Cuisinous or is used under license.",
+            "Unauthorized reproduction is prohibited."
+          ]
+        },
+        "8": {
+          "title": "Personal Data",
+          "content": "Data processing is governed by our Privacy Policy."
+        },
+        "9": {
+          "title": "Governing Law",
+          "content": "These ToS are governed by the laws of Québec and Canada."
+        }
+      },
+      "footer": "By ordering on Cuisinous, Clients acknowledge that they have read and accepted these ToS."
+    },
+    "cancellationRefundPolicy": {
+      "title": "Cancellation & Refund Policy",
+      "intro": "Welcome to Cuisinous. This policy explains the cancellation and refund conditions applicable to orders placed on our platform.",
+      "sections": {
+        "1": {
+          "title": "Cancellation by the Client",
+          "points": [
+            "An order can be canceled within 15 minutes of confirmation for a full refund.",
+            "After this period, cancellation depends on the Vendor’s (chef’s) policy.",
+            "Orders already being prepared or ready for pickup/delivery are non-refundable."
+          ]
+        },
+        "2": {
+          "title": "Cancellation by the Vendor (Chef)",
+          "points": [
+            "If a Vendor cancels an order (e.g. ingredient shortage, emergency), the Client will receive a full refund.",
+            "Refunds are issued automatically through the original payment method."
+          ]
+        },
+        "3": {
+          "title": "Incorrect or Incomplete Orders",
+          "points": [
+            "If a Client receives a meal that does not match the order (wrong dish, missing item), they must contact Cuisinous within 24 hours.",
+            "After verification, a partial or full refund may be issued."
+          ]
+        },
+        "4": {
+          "title": "Quality and Allergies",
+          "points": [
+            "Vendors are responsible for the quality and accuracy of meal descriptions.",
+            "Cuisinous cannot be held responsible for allergic reactions if the Client did not check the ingredients before ordering.",
+            "No refunds will be issued for undisclosed allergies."
+          ]
+        },
+        "5": {
+          "title": "Refund Timelines",
+          "points": [
+            "Refunds are processed within 5 to 10 business days, depending on the payment method."
+          ]
+        }
+      },
+      "footer": "By using Cuisinous, you agree to this cancellation and refund policy."
+    },
+    "vendorAgreement": {
+      "title": "Vendor Agreement – Cuisinous",
+      "intro": "This agreement is entered into by:\nCuisinous (“the Platform”)\nand\n[Vendor’s Name] (“the Vendor”),\ntogether “the Parties.”",
+      "purpose": "This agreement sets the terms under which the Vendor offers homemade meals through the Cuisinous platform.",
+      "vendorObligations": [
+        "Prepare and sell meals in compliance with hygiene and food safety standards applicable in Québec.",
+        "Provide accurate information on ingredients, allergens, and prices.",
+        "Deliver or make meals available to customers within agreed timeframes.",
+        "Hold all required licenses, permits, and legal authorizations.",
+        "Maintain a respectful and professional attitude towards customers and the Platform."
+      ],
+      "cuisinousObligations": [
+        "Provide the Vendor with access to the platform to publish and sell meals.",
+        "Process payments and transfer net funds (after commissions and applicable fees) to the Vendor.",
+        "Provide reasonable technical support if needed."
+      ],
+      "commissionsAndPayments": [
+        "Each sale is subject to a 15% commission retained by Cuisinous.",
+        "Payment of the balance to the Vendor is made via bank transfer [e.g., weekly/monthly] as set by the platform.",
+        "Transaction and processing fees are deducted from the Vendor’s payouts."
+      ],
+      "responsibilities": [
+        "The Vendor is solely responsible for the quality, preparation, and safety of the meals.",
+        "Cuisinous acts only as an intermediary and cannot be held liable for meals provided by the Vendor."
+      ],
+      "intellectualProperty": "The Vendor retains ownership of their recipes and content. However, the Vendor grants Cuisinous a non-exclusive, royalty-free license to use photos and descriptions for promotion of the platform.",
+      "termAndTermination": [
+        "This agreement becomes effective upon acceptance and remains in effect until terminated.",
+        "Either party may terminate with 15 days’ written notice.",
+        "In case of serious breach (fraud, rule violations, repeated complaints), Cuisinous reserves the right to terminate immediately."
+      ],
+      "governingLaw": "This agreement is governed by the laws of Québec and Canada.",
+      "signatures": [
+        "✍️ Vendor’s Signature: ____________________",
+        "📅 Date: ____________________",
+        "✍️ For Cuisinous: ____________________",
+        "📅 Date: ____________________"
+      ]
+    }
+  }
+}
