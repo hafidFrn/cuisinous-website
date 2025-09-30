@@ -1,4 +1,3 @@
-import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Users, Heart, ShieldCheck, DollarSign, Utensils } from "lucide-react";
@@ -17,17 +16,6 @@ const Index = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
-      <Helmet>
-        <title>{t("meta.title", "Cuisinous - Des repas faits maison, préparés par vos voisins")}</title>
-        <meta name="description" content={t("meta.description", "Découvrez, commandez et savourez des plats authentiques à prix abordable, tout en soutenant vos chefs locaux.")} />
-        <link rel="canonical" href={canonical} />
-        <meta property="og:title" content={t("meta.title", "Cuisinous - Homemade meals, prepared by your neighbors")} />
-        <meta property="og:description" content={t("meta.description", "Discover, order, and enjoy authentic dishes at affordable prices — while supporting local chefs.")} />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content={heroImg} />
-        <meta name="twitter:card" content="summary_large_image" />
-      </Helmet>
-
       {/* Header */}
       <header className="sticky top-0 z-30 backdrop-blur supports-[backdrop-filter]:bg-background/70 border-b border-border">
         <nav className="container mx-auto flex items-center justify-between py-4">
