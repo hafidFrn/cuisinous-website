@@ -257,7 +257,7 @@ const Index = () => {
                       <span className="text-white text-sm">✓</span>
                     </div>
                     <span className="text-muted-foreground">
-                      {t("forChefs.feature1", "Zéro frais cachés, seulement une commission de 20 % par commande")}
+                      {t("forChefs.feature1")}
                     </span>
                   </div>
                   <div className="flex items-center gap-3">
@@ -326,7 +326,7 @@ const Index = () => {
             </div>
             <div className="text-center">
               <p className="text-sm text-muted-foreground">
-                {t("footer.copyright", `© ${new Date().getFullYear()} Cuisinous. Tous droits réservés.`)}
+                  {t("footer.copyright", { year: new Date().getFullYear() })}
               </p>
             </div>
             <nav className="flex items-center justify-center md:justify-end gap-6 text-sm">
