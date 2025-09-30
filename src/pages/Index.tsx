@@ -10,34 +10,35 @@ import exploreIcon from "../assets/explore-icon.png";
 import chooseIcon from "../assets/choose-icon.png";
 import enjoyIcon from "../assets/enjoy-icon.png";
 import recipe from '../assets/recipe-1.jpg';
+import { Link } from "react-router-dom";
+
 const Index = () => {
   const { t } = useTranslation();
-  const canonical = typeof window !== "undefined" ? window.location.href : "/";
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
       {/* Header */}
       <header className="sticky top-0 z-30 backdrop-blur supports-[backdrop-filter]:bg-background/70 border-b border-border">
         <nav className="container mx-auto flex items-center justify-between py-4">
-          <a href="#home" className="flex items-center gap-2">
+          <Link to="#home" className="flex items-center gap-2">
             <img src={cuisinousLogo} alt="Cuisinous Logo" className="h-8" />
-          </a>
+          </Link>
           <div className="flex items-center gap-4">
             <div className="hidden md:flex items-center gap-6">
-              <a href="#how-it-works" className="text-sm hover:text-primary transition-colors">
+              <Link to="#how-it-works" className="text-sm hover:text-primary transition-colors">
                 {t("nav.howItWorks", "Comment ça marche")}
-              </a>
-              <a href="#why-choose" className="text-sm hover:text-primary transition-colors">
+              </Link>
+              <Link to="#why-choose" className="text-sm hover:text-primary transition-colors">
                 {t("nav.whyChoose", "Pourquoi nous")}
-              </a>
-              <a href="#for-chefs" className="text-sm hover:text-primary transition-colors">
+              </Link>
+              <Link to="#for-chefs" className="text-sm hover:text-primary transition-colors">
                 {t("nav.forChefs", "Pour les chefs")}
-              </a>
+              </Link>
             </div>
             <div className="flex items-center gap-3">
               <LanguageSwitcher />
               <Button asChild variant="hero" size="sm">
-                <a href="#cta">{t("nav.getStarted", "Commencer")}</a>
+                <Link to="#cta">{t("nav.getStarted", "Commencer")}</Link>
               </Button>
             </div>
           </div>
@@ -329,15 +330,15 @@ const Index = () => {
               </p>
             </div>
             <nav className="flex items-center justify-center md:justify-end gap-6 text-sm">
-              <a href="/legal?section=terms" className="hover:text-primary transition-colors">
+              <Link to="/legal?section=terms" className="hover:text-primary transition-colors">
                 {t("footer.terms", "Conditions")}
-              </a>
-              <a href="/legal?section=privacy" className="hover:text-primary transition-colors">
+              </Link>
+              <Link to="/legal?section=privacy" className="hover:text-primary transition-colors">
                 {t("footer.privacy", "Confidentialité")}
-              </a>
-              <a href="#cta" className="hover:text-primary transition-colors">
+              </Link>
+              <Link to="#cta" className="hover:text-primary transition-colors">
                 {t("footer.contact", "Contact")}
-              </a>
+              </Link>
             </nav>
           </div>
         </div>
