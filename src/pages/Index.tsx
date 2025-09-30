@@ -256,9 +256,6 @@ const Index = () => {
                     <div className="h-6 w-6 rounded-full bg-warm-orange flex items-center justify-center">
                       <span className="text-white text-sm">✓</span>
                     </div>
-                    <span className="text-muted-foreground">
-                      {t("forChefs.feature1")}
-                    </span>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="h-6 w-6 rounded-full bg-warm-orange flex items-center justify-center">
