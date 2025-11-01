@@ -3,7 +3,6 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import "./i18n"; // Import the i18n configuration
 import LegalPages from "./pages/LegalPages";
-
 const App = () => (
 
         <BrowserRouter>

@@ -11,6 +11,7 @@ import chooseIcon from "../assets/choose-icon.png";
 import enjoyIcon from "../assets/enjoy-icon.png";
 import recipe from '../assets/recipe-1.jpg';
 import { Link } from "react-router-dom";
+import ContactForm from "@/components/Contactform";
 
 const Index = () => {
   const { t } = useTranslation();
@@ -25,20 +26,14 @@ const Index = () => {
           </Link>
           <div className="flex items-center gap-4">
             <div className="hidden md:flex items-center gap-6">
-              <Link to="#how-it-works" className="text-sm hover:text-primary transition-colors">
-                {t("nav.howItWorks", "Comment ça marche")}
-              </Link>
-              <Link to="#why-choose" className="text-sm hover:text-primary transition-colors">
-                {t("nav.whyChoose", "Pourquoi nous")}
-              </Link>
-              <Link to="#for-chefs" className="text-sm hover:text-primary transition-colors">
-                {t("nav.forChefs", "Pour les chefs")}
-              </Link>
+              <a href="#how-it-works" className="text-sm hover:text-primary transition-colors">{t("nav.howItWorks")}</a>
+              <a href="#why-choose" className="text-sm hover:text-primary transition-colors">{t("nav.whyChoose")}</a>
+              <a href="#for-chefs" className="text-sm hover:text-primary transition-colors">{t("nav.forChefs")}</a>
             </div>
             <div className="flex items-center gap-3">
               <LanguageSwitcher />
               <Button asChild variant="hero" size="sm">
-                <Link to="#cta">{t("nav.getStarted", "Commencer")}</Link>
+                <Link to="#cta">{t("nav.getStarted")}</Link>
               </Button>
             </div>
           </div>
@@ -50,7 +45,7 @@ const Index = () => {
         <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
           <img
             src={heroImg}
-            alt={t("hero.imageAlt", "Des repas faits maison délicieux préparés par des chefs locaux")}
+            alt={t("hero.imageAlt")}
             className="absolute inset-0 h-full w-full object-cover"
             decoding="async"
           />
@@ -61,33 +56,33 @@ const Index = () => {
           />
           <div className="relative container mx-auto px-6 text-center">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-tight mb-6 text-on-image max-w-4xl mx-auto">
-              {t("hero.title", "Des repas faits maison, préparés par vos voisins")}
+              {t("hero.title")}
             </h1>
             <p className="text-xl md:text-2xl text-on-image/90 mb-12 max-w-3xl mx-auto leading-relaxed">
-              {t("hero.subtitle", "Découvrez, commandez et savourez des plats authentiques à prix abordable, tout en soutenant vos chefs locaux.")}
+              {t("hero.subtitle")}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button variant="hero" size="lg" className="text-lg px-8 py-6 h-auto">
                 <Utensils className="mr-2" />
-                {t("hero.findMeal", "Je cherche un repas")}
+                {t("hero.findMeal")}
               </Button>
               <Button variant="hero" size="lg" className="text-lg px-8 py-6 h-auto">
                 <Users className="mr-2" />
-                {t("hero.imChef", "Je cuisine et je vends")}
+                {t("hero.imChef")}
               </Button>
             </div>
           </div>
         </section>
 
         {/* How It Works */}
-        <section id="how-it-works" className="py-20 md:py-32 bg-soft-cream/30">
+        <section id="how-it-works" className="py-10 md:py-16 bg-soft-cream/30">
           <div className="container mx-auto px-6">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-5xl font-bold mb-6 text-cozy-brown">
-                {t("howItWorks.title", "Comment ça marche")}
+                {t("howItWorks.title")}
               </h2>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                {t("howItWorks.subtitle", "En 3 étapes simples")}
+                {t("howItWorks.subtitle")}
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -101,11 +96,11 @@ const Index = () => {
                     />
                   </div>
                   <CardTitle className="text-xl font-bold text-cozy-brown">
-                    1. {t("howItWorks.explore.title", "Explorez")}
+                    1. {t("howItWorks.explore.title")}
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="text-muted-foreground">
-                  {t("howItWorks.explore.description", "Parcourez la carte et découvrez les plats disponibles autour de vous.")}
+                  {t("howItWorks.explore.description")}
                 </CardContent>
               </Card>
               
@@ -119,11 +114,11 @@ const Index = () => {
                     />
                   </div>
                   <CardTitle className="text-xl font-bold text-cozy-brown">
-                    2. {t("howItWorks.choose.title", "Choisissez")}
+                    2. {t("howItWorks.choose.title")}
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="text-muted-foreground">
-                  {t("howItWorks.choose.description", "Consultez les profils des chefs, leurs menus et leurs notes.")}
+                  {t("howItWorks.choose.description")}
                 </CardContent>
               </Card>
               
@@ -137,11 +132,11 @@ const Index = () => {
                     />
                   </div>
                   <CardTitle className="text-xl font-bold text-cozy-brown">
-                    3. {t("howItWorks.enjoy.title", "Savourez")}
+                    3. {t("howItWorks.enjoy.title")}
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="text-muted-foreground">
-                  {t("howItWorks.enjoy.description", "Commandez et recevez un repas fait maison, préparé avec amour.")}
+                  {t("howItWorks.enjoy.description")}
                 </CardContent>
               </Card>
             </div>
@@ -149,20 +144,20 @@ const Index = () => {
         </section>
 
         {/* Why Choose Cuisinous */}
-        <section id="why-choose" className="py-20 md:py-32">
+        <section id="why-choose" className="py-10 md:py-16">
           <div className="container mx-auto px-6">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1">
                 <img
                   src={recipe}
-                  alt={t("whyChoose.imageAlt", "Famille heureuse partageant un repas fait maison")}
+                  alt={t("whyChoose.imageAlt")}
                   className="w-full h-auto rounded-2xl shadow-elegant"
                   loading="lazy"
                 />
               </div>
               <div className="order-1 lg:order-2">
                 <h2 className="text-3xl md:text-5xl font-bold mb-8 text-cozy-brown">
-                  {t("whyChoose.title", "Pourquoi choisir Cuisinous ?")}
+                  {t("whyChoose.title")}
                 </h2>
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
@@ -171,10 +166,10 @@ const Index = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-cozy-brown mb-1">
-                        {t("whyChoose.authentic.title", "Des repas faits maison avec authenticité")}
+                        {t("whyChoose.authentic.title")}
                       </h3>
                       <p className="text-muted-foreground">
-                        {t("whyChoose.authentic.description", "Savourez des plats préparés avec passion et savoir-faire traditionnel.")}
+                        {t("whyChoose.authentic.description")}
                       </p>
                     </div>
                   </div>
@@ -185,10 +180,10 @@ const Index = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-cozy-brown mb-1">
-                        {t("whyChoose.community.title", "Soutien aux talents culinaires locaux")}
+                        {t("whyChoose.community.title")}
                       </h3>
                       <p className="text-muted-foreground">
-                        {t("whyChoose.community.description", "Contribuez à l'économie locale en encourageant les chefs de votre quartier.")}
+                        {t("whyChoose.community.description")}
                       </p>
                     </div>
                   </div>
@@ -199,10 +194,10 @@ const Index = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-cozy-brown mb-1">
-                        {t("whyChoose.safety.title", "Hygiène et sécurité alimentaire certifiées (MAPAQ)")}
+                        {t("whyChoose.safety.title")}
                       </h3>
                       <p className="text-muted-foreground">
-                        {t("whyChoose.safety.description", "Tous nos chefs respectent les normes sanitaires les plus strictes.")}
+                        {t("whyChoose.safety.description")}
                       </p>
                     </div>
                   </div>
@@ -213,10 +208,10 @@ const Index = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-cozy-brown mb-1">
-                        {t("whyChoose.pricing.title", "Prix justes et transparents")}
+                        {t("whyChoose.pricing.title")}
                       </h3>
                       <p className="text-muted-foreground">
-                        {t("whyChoose.pricing.description", "Des tarifs équitables sans frais cachés, bénéfiques pour tous.")}
+                        {t("whyChoose.pricing.description")}
                       </p>
                     </div>
                   </div>
@@ -227,10 +222,10 @@ const Index = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-cozy-brown mb-1">
-                        {t("whyChoose.together.title", "Une communauté qui rassemble")}
+                        {t("whyChoose.together.title")}
                       </h3>
                       <p className="text-muted-foreground">
-                        {t("whyChoose.together.description", "Créez des liens avec vos voisins autour de la passion culinaire.")}
+                        {t("whyChoose.together.description")}
                       </p>
                     </div>
                   </div>
@@ -241,48 +236,43 @@ const Index = () => {
         </section>
 
         {/* For Chefs */}
-        <section id="for-chefs" className="py-20 md:py-32 bg-soft-cream/30">
+        <section id="for-chefs" className="py-10 md:py-16 bg-soft-cream/30">
           <div className="container mx-auto px-6">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl md:text-5xl font-bold mb-6 text-cozy-brown">
-                  {t("forChefs.title", "Transformez votre passion en revenu")}
+                  {t("forChefs.title")}
                 </h2>
                 <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                  {t("forChefs.subtitle", "Vous aimez cuisiner? Transformez votre passion en revenu. Rejoignez Cuisinous, partagez vos plats et gagnez de l'argent facilement.")}
+                  {t("forChefs.subtitle")}
                 </p>
                 <div className="space-y-4 mb-8">
                   <div className="flex items-center gap-3">
                     <div className="h-6 w-6 rounded-full bg-warm-orange flex items-center justify-center">
-                      <span className="text-white text-sm">✓</span>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <div className="h-6 w-6 rounded-full bg-warm-orange flex items-center justify-center">
-                      <span className="text-white text-sm">✓</span>
+                      <span className="text-green text-sm">✓</span>
                     </div>
                     <span className="text-muted-foreground">
-                      {t("forChefs.feature2", "Plus de visibilité dans votre quartier")}
+                      {t("forChefs.feature2")}
                     </span>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="h-6 w-6 rounded-full bg-warm-orange flex items-center justify-center">
-                      <span className="text-white text-sm">✓</span>
+                      <span className="text-green text-sm">✓</span>
                     </div>
                     <span className="text-muted-foreground">
-                      {t("forChefs.feature3", "Assistance et support pour réussir")}
+                      {t("forChefs.feature3")}
                     </span>
                   </div>
                 </div>
                 <Button variant="hero" size="lg" className="text-lg px-8 py-6 h-auto">
                   <Users className="mr-2" />
-                  {t("forChefs.cta", "Rejoindre Cuisinous")}
+                  {t("forChefs.cta")}
                 </Button>
               </div>
               <div className="flex justify-center lg:justify-end">
                 <img
                   src={chefImg}
-                  alt={t("forChefs.imageAlt", "Chef passionné cuisinant dans sa cuisine")}
+                  alt={t("forChefs.imageAlt")}
                   className="w-full max-w-md h-auto rounded-2xl shadow-elegant"
                   loading="lazy"
                 />
@@ -292,26 +282,27 @@ const Index = () => {
         </section>
 
         {/* Final CTA */}
-        <section id="cta" className="py-20 md:py-32 bg-gradient-to-br from-warm-orange/10 to-warm-orange/5">
+        <section id="cta" className="py-10 md:py-16 bg-gradient-to-br from-warm-orange/10 to-warm-orange/5">
           <div className="container mx-auto px-6 text-center">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 text-cozy-brown max-w-4xl mx-auto">
-              {t("cta.title", "Rejoignez dès aujourd'hui la communauté Cuisinous et découvrez un nouveau monde de saveurs.")}
+              {t("cta.title")}
             </h2>
             <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-              {t("cta.subtitle", "Des milliers de repas délicieux vous attendent. Commencez votre aventure culinaire maintenant.")}
+              {t("cta.subtitle")}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button variant="hero" size="lg" className="text-lg px-8 py-6 h-auto">
                 <Utensils className="mr-2" />
-                {t("cta.order", "Je commande maintenant")}
+                {t("cta.order")}
               </Button>
               <Button variant="outline" size="lg" className="text-lg px-8 py-6 h-auto border-2 border-warm-orange text-warm-orange hover:bg-warm-orange hover:text-white">
                 <Users className="mr-2" />
-                {t("cta.becomeChef", "Je deviens chef partenaire")}
+                {t("cta.becomeChef")}
               </Button>
             </div>
           </div>
         </section>
+
       </main>
 
       {/* Footer */}
@@ -328,14 +319,12 @@ const Index = () => {
             </div>
             <nav className="flex items-center justify-center md:justify-end gap-6 text-sm">
               <Link to="/legal?section=terms" className="hover:text-primary transition-colors">
-                {t("footer.terms", "Conditions")}
+                {t("footer.terms")}
               </Link>
               <Link to="/legal?section=privacy" className="hover:text-primary transition-colors">
-                {t("footer.privacy", "Confidentialité")}
+                {t("footer.privacy")}
               </Link>
-              <Link to="#cta" className="hover:text-primary transition-colors">
-                {t("footer.contact", "Contact")}
-              </Link>
+              <a href="#cta" className="hover:text-primary transition-colors">{t("footer.contact")}</a>
             </nav>
           </div>
         </div>
