@@ -3,12 +3,14 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import "./i18n"; // Import the i18n configuration
 import LegalPages from "./pages/LegalPages";
+import ResetPassword from "./pages/ResetPassword/ResetPassword";
 const App = () => (
 
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/legal" element={<LegalPages />} />
+            <Route path="/reset-password" element={<ResetPassword />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
