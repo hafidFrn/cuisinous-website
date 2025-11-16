@@ -54,7 +54,7 @@ const Index = () => {
             style={{ background: "var(--gradient-hero)" }}
             aria-hidden
           />
-          <div className="relative container mx-auto px-6 text-center">
+          <div className="relative container mx-auto px-6 text-center text-white">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-tight mb-6 text-on-image max-w-4xl mx-auto">
               {t("hero.title")}
             </h1>
